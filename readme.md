@@ -1,7 +1,6 @@
 Explanation:
-
-    Configuration File (config.cfg):
-        Stores the database user, password, and retention days.
+Configuration File (config.cfg):
+Stores the database user, password, and retention days.
 
     Main Script (mysqltool.sh):
         Reads the configuration file located in the same directory as the script.
