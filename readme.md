@@ -13,15 +13,15 @@ Usage:
     Fill in the configuration file with the appropriate values.
     Make the script executable:
 
-    bash
+bash
 
-chmod +x mysqltool.sh
+    chmod +x mysqltool.sh
 
 Run the script with the desired database name, backup directory, and option:
 
 bash
 
-./mysqltool.sh database_name /path/to/backup/dir backup
+    ./mysqltool.sh database_name /path/to/backup/dir backup
 
 or
 
