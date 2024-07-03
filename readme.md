@@ -1,6 +1,7 @@
 Explanation:
 Configuration File (config.cfg):
-Stores the database user, password, and retention days.
+
+	Stores the database user, password, and retention days.
 
     Main Script (mysqltool.sh):
         Reads the configuration file located in the same directory as the script.
@@ -21,12 +22,12 @@ Run the script with the desired database name, backup directory, and option:
 
 bash
 
-    ./mysqltool.sh database_name /path/to/backup/dir backup
+    ./mysqltool.sh database_name  backup
 
 or
 
 bash
 
-    ./mysqltool.sh database_name /path/to/backup/dir restore
+    ./mysqltool.sh database_name  restore
 
 This setup allows you to easily manage your MySQL backups and restorations by changing settings in the configuration file without modifying the script itself.
