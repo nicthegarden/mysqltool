@@ -40,7 +40,7 @@ This setup allows you to easily manage your MySQL backups and restorations by ch
 
 DB_USER=PUT_IN_THE_USERNAME_OF_THE_DATABASE
 DB_PASSWORD=PUT_IN_THE_PASSWORD_OF_THE_DATABASE
-BACKUP_DIR=/path/to/backup/the/database #Backup Directory where you can backup your thing
+BACKUP_DIR=/path/to/backup/the/database 
 RETENTION_DAYS=7 #the backup maximum life 
 MAX_BACKUP_COUNT=2 #the maximum number of backup allowed
 
