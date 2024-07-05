@@ -4,9 +4,9 @@
 Stores the database user, password, and retention days.
 
 ## Main Script (mysqltool.sh):
-        Reads the configuration file located in the same directory as the script.
-        Uses the configuration variables for backup and restore operations.
-        Functions are similar to the previous version but now use variables from the configuration file.
+    Reads the configuration file located in the same directory as the script.
+    Uses the configuration variables for backup and restore operations.
+    Functions are similar to the previous version but now use variables from the configuration file.
 
 ## Usage:
 
