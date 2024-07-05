@@ -49,13 +49,4 @@ RETENTION_DAYS=7 #the backup maximum life
 MAX_BACKUP_COUNT=2 #the maximum number of backup allowed
 
 
-## Crontab Usage 
-Make sure you are running your command as the user you want it to run
-```bash
-    crontab -e
-```
-m h  dom mon dow   command
 
-```bash
-        0 * * * * /root/dobackup.sh
-```
