@@ -54,7 +54,8 @@ Make sure you are running your command as the user you want it to run
 ```bash
     crontab -e
 ```
-# m h  dom mon dow   command
+m h  dom mon dow   command
+
 ```bash
         0 * * * * /root/dobackup.sh
 ```
