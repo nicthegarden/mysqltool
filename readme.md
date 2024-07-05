@@ -39,9 +39,13 @@ This setup allows you to easily manage your MySQL backups and restorations by ch
 ** This files needs to be at the same place as the root of the script mysqltool.sh ** 
 
 DB_USER=PUT_IN_THE_USERNAME_OF_THE_DATABASE
+
 DB_PASSWORD=PUT_IN_THE_PASSWORD_OF_THE_DATABASE
-BACKUP_DIR=/path/to/backup/the/database 
-RETENTION_DAYS=7 #the backup maximum life 
+
+BACKUP_DIR=/path/to/backup/the/database
+ 
+RETENTION_DAYS=7 #the backup maximum life
+ 
 MAX_BACKUP_COUNT=2 #the maximum number of backup allowed
 
 
