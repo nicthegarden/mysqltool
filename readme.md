@@ -1,4 +1,5 @@
 # Readme.md:
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 ## Configuration File (config.cfg):
 
 Stores the database user, password, and retention days.
@@ -47,8 +48,3 @@ BACKUP_DIR=/path/to/backup/the/database
 RETENTION_DAYS=7 #the backup maximum life
  
 MAX_BACKUP_COUNT=2 #the maximum number of backup allowed
-
-[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
-
-
-
