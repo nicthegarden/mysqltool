@@ -48,5 +48,7 @@ RETENTION_DAYS=7 #the backup maximum life
  
 MAX_BACKUP_COUNT=2 #the maximum number of backup allowed
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 
 
